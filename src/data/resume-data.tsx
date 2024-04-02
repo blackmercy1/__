@@ -20,259 +20,142 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Арюков Алексей",
+  initials: "АА",
+  location: "Tbilisi, Georgia, EST",
+  locationLink: "https://www.google.com/maps/place/Tbilisi",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+      "C# Unity Developer",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+      "Я разработчик в индустрии видеоигр с более чем 2.5 годами опыта. Мой опыт включает разработку игр на языках программирования C# и C++. Мой опыт в программировании включает проекты Skabma и Choice of Life: Middle Ages 2, а также Pixel Gun.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/99472435?v=4",
+  personalWebsiteUrl: "https://nothing.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "leshaar14@gmail.com",
+    tel: "+799605504321",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/blackmercy1",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/aryukov-ally-028ba6267/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Baltic federal university",
+      degree: "Бакалавр, Прикладная математика",
+      start: "2020",
+      end: "",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Samustai",
+      link: "https://www.samustai.com",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "C# gameplay developer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2022",
+      end: "Настоящее время",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+          "Портирование игр на консоли (PS, Xbox, Nintendo Switch), написание элементов управления для консолей, профилирование и оптимизация проектов (шейдеры, графика, код, сцены, использование памяти и многое другое), доработка исходного кода проекта, добавление логических модулей в игровые продукты",
     },
     {
-      company: "Clevertech",
+      company: "Clicker knight",
       link: "https://clevertech.biz",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "C# gameplay developer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2021",
+      end: "2022",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+          "Разработка игровых модулей (инвентарь, магазин), разработка новых NPC, верстка сложных элементов пользовательского интерфейса для всех типов экранов, Поддержка старой игровой логики, включая рефакторинг, улучшение архитектурных модулей, разработка собственных окон редактора для легкой настройки ассетов, создание боевого пропуска с подключение платежных систем",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "C#",
+    "Unity",
+    "Git",
+    "Jira",
+    "Agile",
+    "Linux",
+    "MVC",
+    "Jira",
+    "Python",
+    "C++",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Skabma",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Unity",
+        "Profiling",
+        "Optimization",
+        "Bug fixing",
+        "HLSL",
+        "ShaderLab",
+        "C#",
+        "Git",
+        "HDRP + URP render pipelines",
+        "HLSL",
+        "C# + C++",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Game about Sami people",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "skabma.com",
+        href: "https://www.skabma.com",
       },
-    },
-    {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
 
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+    },
+    {
+      title: "Pixel gun",
+      techStack: [
+        "Unity",
+        "Profiling",
+        "Git",
+        "Built-in graphics",
+        "Steam API",
+        "ShaderLab",
+        "HLSL",
+        "C#",
       ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
+      description: "Multiplier game with big fan base",
+      logo: ConsultlyLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "pixelgun3d.com",
+        href: "https://pixelgun3d.com",
       },
+
     },
+
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
+      title: "TCOL2",
+      techStack: [
+        "Unity",
+        "Profiling",
+        "Git",
+        "Built-in",
+        "Optimization",
+        "Reward system",
+        "HLSL",
+        "Xbox",
+        "Playstation",
+      ],
+      description: "Card game about importance of choice",
+      logo: ConsultlyLogo,
       link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        label: "ChoiceOfLife",
+        href: "https://www.nintendo.de/Spiele/Nintendo-Switch-Download-Software/Choice-of-Life-Middle-Ages-2-2337485.html",
       },
+
     },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+
   ],
 } as const;
