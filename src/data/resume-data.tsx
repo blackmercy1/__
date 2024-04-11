@@ -17,7 +17,7 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, TelegramIcon} from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Арюков Алексей",
@@ -32,8 +32,13 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://nothing.me",
   contact: {
     email: "leshaar14@gmail.com",
-    tel: "+799605504321",
+    tel: "+79960550421",
     social: [
+      {
+        name: "Telegram",
+        url: "https://t.me/blackmercy1",
+        icon: TelegramIcon,
+      },
       {
         name: "GitHub",
         url: "https://github.com/blackmercy1",
