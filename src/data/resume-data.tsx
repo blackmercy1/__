@@ -22,7 +22,7 @@ import { GitHubIcon, LinkedInIcon, XIcon, TelegramIcon} from "@/components/icons
 export const RESUME_DATA = {
   name: "Арюков Алексей",
   initials: "АА",
-  location: "Tbilisi, Georgia, EST",
+  location: "Moscow, Russia EST",
   locationLink: "https://www.google.com/maps/place/Tbilisi",
   about:
       "C# Unity Developer",
